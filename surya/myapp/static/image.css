@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    border:0;
+}
+body{
+    background: linear-gradient(1200deg,black,#2193b0,#000000);
+}
+.photos{
+    
+    display: grid;
+    grid-template-columns: repeat(5,2fr);
+}
+img{
+    position: relative;
+    top: 80px;
+    width: 300px;
+    left:60px;
+    height: 400px;
+    border:solid 10px black;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+h2{
+    position: relative; 
+    top: 400px;
+    left: 20px;
+    font-size: 35px;
+    color: black;
+}
